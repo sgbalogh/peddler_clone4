@@ -360,24 +360,8 @@ Neatline.module('Simile', {
        
        
       setFilter: function() {
-var flag = false;
 var disable = $('[name="disabletimeline"]');
-    var tags = [];
-disable.change(function() {
 
-        if (document.getElementById('disable').checked) {
-            
-            flag = true;
-            
-        } else {
-        	flag = false;
-        
-        
-        }
-        
-
-    
-});
       
       
         Neatline.vent.trigger('setFilter', {
@@ -401,9 +385,7 @@ disable.change(function() {
         });
       
       
-           disable.change(function() {
-      if (flag) {
-      	
+           disable.click(function() {
       	
       	        Neatline.vent.trigger('setFilter', {
           source: this.slug, key: 'simile',
@@ -414,7 +396,6 @@ disable.change(function() {
       	
       	
       	
-      	} else {};
       }); 
       
       },

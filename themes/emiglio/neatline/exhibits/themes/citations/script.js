@@ -1,6 +1,6 @@
 Neatline.on('start', function() {
 
-  
+ /* 
   var tagbox = [];
   
     $('.AdditionalCareers').click(function() {
@@ -39,7 +39,7 @@ Neatline.on('start', function() {
   });
   
   
-  
+ */ 
   
   /*
     $('.AntiSemiticRhetoric').click(function() {

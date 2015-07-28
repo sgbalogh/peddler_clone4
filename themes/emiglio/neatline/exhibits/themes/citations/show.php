@@ -145,13 +145,14 @@
 </div>
 <br><br>
 <button type="submit" name="submit" class="btn btn-default">Apply Facets</button>
+<button type="submit" name="disabletimeline" id="disable" class="btn btn-default">Disable Timeline</button>
 <br>
 
-<div name="disabletimeline" class="btn-group" data-toggle="buttons">
+<!--<div name="disabletimeline" class="btn-group" data-toggle="buttons">
 <label class="btn btn-primary btn-xs">
     <input type="checkbox" name="disabletimeline" value="disabletimeline" id="disable">Disable Timeline
   </label>
-  </div>
+  </div>-->
 
  
 <?php echo foot(); ?>

@@ -9,3 +9,12 @@ width: 100%;
 bottom: 3%;
 right: 0;
 }
+#multi {
+	margin-top: 2px;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 1px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 1px; /* Firefox */
+    column-gap: 1px;
+}

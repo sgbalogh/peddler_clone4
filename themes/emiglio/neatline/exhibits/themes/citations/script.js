@@ -291,8 +291,15 @@ tags = [];
   		console.log(tags);
   });
   
+$('.btn btn-default dropdown-toggle').dropdown();
 
+
+$('#divNewNotifications li').on('click', function() {
+    $('#dropdown_title').html($(this).find('a').html());
+    });
+    
 });
+
 
 /*!
  * Bootstrap v3.3.4 (http://getbootstrap.com)

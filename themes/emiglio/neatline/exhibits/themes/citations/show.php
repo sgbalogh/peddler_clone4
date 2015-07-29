@@ -127,19 +127,31 @@
   </label>
    </div><div class="btn-group-justified" data-toggle="buttons">
    <label class="btn btn-warning btn-xs">
-    <input type="checkbox" name="filter" value="Book"> Book
+    <input type="checkbox" name="tag" value="Book"> Book
   </label>
    </div><div class="btn-group-justified" data-toggle="buttons">
    <label class="btn btn-warning btn-xs">
-    <input type="checkbox" name="filter" value="BookSection"> Book Section
+    <input type="checkbox" name="tag" value="BookSection"> Book Section
   </label>
    </div><div class="btn-group-justified" data-toggle="buttons">
    <label class="btn btn-warning btn-xs">
-    <input type="checkbox" name="filter" value="JournalArticle"> Journal Article
+    <input type="checkbox" name="tag" value="JournalArticle"> Journal Article
   </label>
    </div><div class="btn-group-justified" data-toggle="buttons">
    <label class="btn btn-warning btn-xs">
-    <input type="checkbox" name="filter" value="Website"> Website
+    <input type="checkbox" name="tag" value="Website"> Website
+  </label>
+  </div><div class="btn-group-justified" data-toggle="buttons">
+     <label class="btn btn-warning btn-xs">
+    <input type="checkbox" name="tag" value="Document"> Document
+  </label>
+   </div><div class="btn-group-justified" data-toggle="buttons">
+   <label class="btn btn-warning btn-xs">
+    <input type="checkbox" name="tag" value="Thesis"> Thesis
+  </label>
+   </div><div class="btn-group-justified" data-toggle="buttons">
+   <label class="btn btn-warning btn-xs">
+    <input type="checkbox" name="tag" value="NewspaperArticle"> Newspaper Article
   </label>
 </div>
 </div>
